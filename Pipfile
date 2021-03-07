@@ -5,7 +5,9 @@ name = "pypi"
 
 [packages]
 django = "*"
-mamba-django = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
+coverage = "*"
 
 [dev-packages]
 pylint = "*"

@@ -11,7 +11,6 @@ class Task(models.Model):
     description = models.TextField()
     status = models.CharField(max_length=1, choices=Status.choices, default=Status.TO_DO)
     due_date = models.DateField(null=True)
-    
 
-    def _str_(self):
+    def __str__(self):
         return self.title
