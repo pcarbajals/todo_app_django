@@ -6,6 +6,8 @@ class TaskSerializer(serializers.ModelSerializer):
         model = Task
         fields = ('id', 'title', 'description', 'status', 'due_date')
 
+        # TODO: Convert the status into its label representation
+
         # TODO change the serialization to comply with the OpenAPI Specification: 
         # - https://swagger.io/specification/
         # - https://dev.to/errietta/documenting-a-django-api-with-openapi-and-dataclasses-1p6h
