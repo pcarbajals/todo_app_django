@@ -109,6 +109,6 @@ This project doesn't comply with OpenAPI specification as the original RoR proje
 Versioning hasn't been implemented, however to maintain compatibility with existing Postman tests, the URL `api/v1/` was maintained. 
 
 ### Postman tests
-The existing RoR has a companion Postman collection for testing the APIs (included in the RoR project integration tests), however due to missing features described above, the Postman tests fail. Once the features have been implemented and the Postman tests pass, this project will be considered fully reimplemented.
+The existing RoR has a companion Postman collection for testing the APIs (included in the RoR project [integration tests](https://github.com/pcarbajals/todo_api_app/tree/master/spec/fixtures/files/v1)), however due to missing features described above, the Postman tests fail. Once the features have been implemented and the Postman tests pass, this project will be considered fully reimplemented.
 
 
