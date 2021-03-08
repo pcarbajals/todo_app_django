@@ -1,6 +1,7 @@
 from django.db import models
 
 class Task(models.Model):
+    ''' The Task model has four fields: title, description, status and due date '''
     class Status(models.TextChoices):
         TO_DO = 'T'
         IN_PROGRESS = 'I'
